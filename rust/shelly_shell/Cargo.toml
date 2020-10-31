@@ -1,0 +1,12 @@
+[package]
+name = "shelly_shell"
+version = "0.1.0"
+authors = ["randomactsofsecurity"]
+edition = "2018"
+
+[dependencies]
+winapi = { version = "0.3.4", features = ["winsock2","ws2tcpip","winbase"]}
+widestring = "0.3"
+
+[profile.release]
+lto = true
