@@ -1,4 +1,3 @@
-# Shelly Shell - Golang
 
 This repository contains a basic reverse shell written in golang.
 
